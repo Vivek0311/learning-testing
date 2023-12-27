@@ -1,5 +1,6 @@
 //Normal function 
 
+
 function playgame(a){
     let c = a**2;
     c = c / 2;
@@ -20,3 +21,5 @@ console.log(z(2));
 add = (a, b) => a+b;
 
 console.log(add(2,3));
+
+

@@ -4,10 +4,26 @@ let student = {
     Raghu : 86
 }
 
-function print(student){
-    for(a in student){
-        console.log(student[a]);
-    }
-}
+console.log(Object.keys(student));
 
-print(student);
+// function print(student){
+//     for(a in student){
+//         console.log(student[a]);
+//     }
+// }
+
+// print(student);
+
+
+// let a = 10;
+// while (true){
+//     let b = prompt("Guess a number");
+//     if(b != a){
+//         console.log("Try again");
+//     }
+//     else {
+//         console.log("You guessed a right number");
+//         break;
+//     }
+// }
+
